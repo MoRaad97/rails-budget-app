@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
-  devise_for :users
   root 'users#index'
+  devise_for :users , controllers: { registrations: "registrations" }
   resources :entities
   resources :groups
 end
