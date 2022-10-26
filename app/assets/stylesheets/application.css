@@ -11,3 +11,37 @@
 html {
   scroll-behavior: smooth;
 }
+
+.login-page {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  color: var(--main-text-color);
+  align-items: center;
+  height: 100vh;
+  justify-content: space-evenly;
+}
+
+.btns-box {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.app-title {
+  font-size: 30px;
+}
+
+.login {
+  background-color: var(--primary-template-color);
+  text-decoration: none;
+  text-align: center;
+  padding: 7px;
+}
+
+.signup {
+  margin-top: 5px;
+  text-decoration: none;
+  text-align: center;
+  padding: 7px;
+}
