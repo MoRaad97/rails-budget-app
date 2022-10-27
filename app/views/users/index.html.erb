@@ -1,36 +1,12 @@
-<section class="menu hidden">
-      <div class="close-btn-wrapper">
-        <button class="close-btn">
-          <img src="./imgs/close-button.svg" alt="close button" />
-        </button>
-      </div>
-      <div class="links-con">
-        <ul>
-          <li><a href="#portoflio">Portoflio</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </div>
-    </section>
+<section class="login-page">
+  <h1 class="app-title">My Budget</h1>
+  <div class="btns-box">
+    <% if user_signed_in? %>
+    <%= link_to "Sign out", destroy_user_session_path, data: { turbo_method: :delete }, class:"login"%>
+    <% else %>
+    <%= link_to "Log In", new_user_session_path, class: "login" %>
+    <%= link_to "Sign Up", new_user_registration_path, class: "signup" %>
+    <% end %>
+  </div>
+</section>
 
-    <!-- Toolbar start -->
-    <header class="header">
-      <div class="header-container container">
-        <div class="name">Mohammed Raad</div>
-        <div class="links">
-          <ul>
-            <li><a href="#portoflio">Portoflio</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li>
-              <a href="#"><img src="imgs/Icon-Mail.png" alt="Mail-Icon" /></a>
-            </li>
-          </ul>
-          <span class="icon">
-            <span></span>
-            <span></span>
-            <span></span>
-          </span>
-        </div>
-      </div>
-    </header>

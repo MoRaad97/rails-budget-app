@@ -1,0 +1,21 @@
+<div class="log-page-nav">
+<%= link_to "<", '/', class: "back" %>
+<p class="reg-title">LOGIN</p>
+</div>
+<%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
+  <div class="field">
+    <%= f.email_field :email, autofocus: true, autocomplete: "email",placeholder: 'Email', class:"input" %>
+  </div>
+
+  <div class="field">
+    <%= f.password_field :password, autocomplete: "current-password",placeholder: 'Password', class:"input" %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit "Login",class: "sign-btn" %>
+  </div>
+<% end %>
+
+<%- if devise_mapping.recoverable? && controller_name != 'passwords' && controller_name != 'registrations' %>
+  <%= link_to "Forgot Password?", new_password_path(resource_name), class: "f-password" %><br />
+<% end %>
