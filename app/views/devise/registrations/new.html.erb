@@ -1,6 +1,7 @@
-<h2>REGISTER</h2>
-<h2>Next</h2>
-<h2><--</h2>
+<div class="log-page-nav">
+<%= link_to "<", '/', class: "back" %>
+<p class="reg-title">REGISTER</p>
+</div>
 
 <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
 
@@ -21,10 +22,9 @@
   </div>
 
   <div class="actions">
-    <%= f.submit "Sign up" %>
+    <%= f.submit "Sign up", class: "sign-btn"  %>
   </div>
 
   <%= render "devise/shared/error_messages", resource: resource %>
 <% end %>
 
-<%= render "devise/shared/links" %>
