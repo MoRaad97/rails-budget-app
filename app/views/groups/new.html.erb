@@ -1,9 +1,7 @@
-<h1>New group</h1>
+<div class="log-page-nav">
+<%= link_to "<", '/groups', class: "back" %>
+<p class="reg-title">New Catagory</p>
+</div>
 
 <%= render "form", group: @group %>
 
-<br>
-
-<div>
-  <%= link_to "Back to groups", groups_path %>
-</div>

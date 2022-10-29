@@ -97,6 +97,7 @@ html {
 
 .reg-title {
   width: 75%;
+  font-size: 19px;
 }
 
 .f-password {
@@ -107,4 +108,75 @@ html {
   width: 100%;
   display: block;
   text-align: center;
+}
+
+.groups {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+}
+
+.catagory-card {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 5px;
+  margin: 5px 0;
+  width: 100%;
+  border: 1px solid;
+  min-height: 100px;
+  background-color: white;
+}
+
+.new {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  width: 10%;
+}
+
+.add-btn {
+  width: 220px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background-color: var(--secondary-template-color);
+}
+
+.cat-text {
+  padding: 0 15px;
+}
+
+.cat-title {
+  text-decoration: none;
+  color: var(--main-text-color);
+  font-size: 23px;
+  text-transform: capitalize;
+}
+
+.created {
+  font-size: 14px;
+  color: var(--main-text-color);
+}
+
+.cat-img {
+  width: 40%;
+  height: 120px;
+}
+
+.total-amount {
+  color: var(--main-text-color);
+}
+
+.total-amount-tran {
+  width: 100%;
+  background-color: white;
+  text-align: center;
+  font-size: 20px;
+  padding: 15px;
+  margin: 0;
+  margin-bottom: 10px;
 }
