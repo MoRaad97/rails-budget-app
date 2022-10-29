@@ -24,7 +24,7 @@
 
 ## Video (Soon)
 
-#### Quick look at the app features: [Loom Video Not Available](https://livedemo.com)
+#### Quick look at the app features: [Loom Video](https://www.loom.com/share/1f0d7422181d43ac8559b8c9cad2adba)
 
 
 ## Getting Started
