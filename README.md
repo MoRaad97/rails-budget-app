@@ -18,11 +18,11 @@
 - Frameworks: RUBY ON RAILS, BOOTSTRAP.
 - Technologies used: RSpec, Capybara, Bullet, Devise, CanCanCan.
 
-## Live Demo (Soon)
+## Live Demo
 
 [Heroku](https://budget-app-mohammed.herokuapp.com/)
 
-## Video (Soon)
+## Video 
 
 #### Quick look at the app features: [Loom Video](https://www.loom.com/share/1f0d7422181d43ac8559b8c9cad2adba)
 
