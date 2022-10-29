@@ -24,7 +24,7 @@
 
 ## Video 
 
-#### Quick look at the app features: [Loom Video](https://www.loom.com/share/1f0d7422181d43ac8559b8c9cad2adba)
+#### Quick look at the app features: [Loom Video](https://www.loom.com/share/9f1cf94d7044463ca5e4eb37c30656ae)
 
 
 ## Getting Started
