@@ -20,7 +20,7 @@
 
 ## Live Demo (Soon)
 
-[Not Available](https://livedemo.com)
+[Heroku](https://budget-app-mohammed.herokuapp.com/)
 
 ## Video (Soon)
 
@@ -44,7 +44,7 @@ For **dependencies**, run
 
 For **tests**, run
 ```RSpec
-  $ rspec test
+  $ rspec spec
 ```
 
 For linters' fixes, run
