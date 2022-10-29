@@ -24,7 +24,7 @@ class GroupsController < ApplicationController
   # Delete group Action
   def destroy
     @group = Group.where(id: params[:id], user: current_user)
-    redirect_to groups_path, notice: 'group was successfully destroyed.' if @group.destroy(params[:id])
+    redirect_to groups_path, notice: 'group was successfully Deleted.' if @group.destroy(params[:id])
   end
 
   private

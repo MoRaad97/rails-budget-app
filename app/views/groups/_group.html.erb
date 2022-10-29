@@ -1,0 +1,13 @@
+<div class="catagory-card">
+  <img class="cat-img" src="<%= group.icon %>" alt="<%= group.name %>" />
+
+  <div class="cat-text"> 
+    <%= link_to group.name, group_entities_path(group.id), class:"cat-title" %>
+    <p class="created"><%= group.created_at %></p>
+  </div>
+
+  <div>
+  <p class="total-amount">Transctions: <%= group.entities.sum(:amount) || 0 %>$</p>
+  </div>
+
+</div>
