@@ -1,17 +1,13 @@
-<%= form_with(model: entity) do |form| %>
-  <% if entity.errors.any? %>
-    <div style="color: red">
-      <h2><%= pluralize(entity.errors.count, "error") %> prohibited this entity from being saved:</h2>
+<div >
+  <%= form_with model: @entities, url: group_entities_path, method: :post, data: { turbo: false } do |f| %>
+    <div class="field">
+        <%= f.text_field :name, autofocus: true, class: "input", placeholder: "Transction Name" %>
+    </div>
+    <div class="field">
+      <%= f.text_field :amount, autofocus: true, class: "input", placeholder: "Amount in numbers" %>
+    </div>
 
-      <ul>
-        <% entity.errors.each do |error| %>
-          <li><%= error.full_message %></li>
-        <% end %>
-      </ul>
+    <div class="actions">
+      <%= f.submit "SAVE" , class: "sign-btn" %>
     </div>
   <% end %>
-
-  <div>
-    <%= form.submit %>
-  </div>
-<% end %>
