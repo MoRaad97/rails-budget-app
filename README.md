@@ -1,56 +1,72 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Budget App
 
-> Description the project.
+>  a mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.
 
+>  Ruby on Rails application that allows the user to:
+>  - register and log in, so that the data is private to them.
+> - introduce new transactions associated with a category.
+> - see the money spent on each category.
 
+## Design 
+- #### Original design idea by: [Gregoire Vella on Behance.](https://www.behance.net/gregoirevella)
+- #### Design [link.](https://www.behance.net/gallery/19759151/Snapscan-iOs-design-and-branding?tracking_source=)
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- Languages Used: HTML, CSS, RUBY.
+- Frameworks: RUBY ON RAILS, BOOTSTRAP.
+- Technologies used: RSpec, Capybara, Bullet, Devise, CanCanCan.
 
-## Live Demo (if available)
+## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Heroku](https://budget-app-mohammed.herokuapp.com/)
+
+## Video 
+
+#### Quick look at the app features: [Loom Video](https://www.loom.com/share/9f1cf94d7044463ca5e4eb37c30656ae)
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+To get this program running on your computer,
 
+1. First, install Ruby
+2. Clone the project repository ([link](https://github.com/MoRaad97/Budget-App))
 
-To get a local copy up and running follow these simple example steps.
+### Run (_terminal_)
 
-### Prerequisites
+For **dependencies**, run
+```
+  $ bundle install
+  $ npm i
+```
 
-### Setup
+For **tests**, run
+```RSpec
+  $ rspec spec
+```
 
-### Install
+For linters' fixes, run
+```
+  $ rubocop -A
+  $ npx stylelint "**/*.{css,scss}" --fix
+```
 
-### Usage
-
-### Run tests
-
-### Deployment
+To serve the app in the browser, run
+```rails
+  $ rails server
+```
 
 
 
 ## Authors
+👤 **Mohammed Raad**
 
-👤 **Author1**
+- GitHub: [@MoRaad97](https://github.com/MoRaad97)
+- Twitter: [@MohammedRaadz](https://twitter.com/MohammedRaadz)
+- LinkedIn: [Mohammed Raad](linkedin.com/in/mohammed-raad-600176210)
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
@@ -64,9 +80,9 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Microverse
+- Micronuts
+- My Partners
 
 ## 📝 License
 

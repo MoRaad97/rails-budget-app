@@ -1,0 +1,182 @@
+:root {
+  --main-text-color: #434b54;
+  --primary-template-color: #3778c2;
+  --secondary-template-color: #5fb523;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  scroll-behavior: smooth;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-color: #f0f0f080;
+}
+
+.login-page {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  color: var(--main-text-color);
+  align-items: center;
+  height: 100vh;
+  justify-content: space-evenly;
+}
+
+.btns-box {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.app-title {
+  font-size: 45px;
+}
+
+.login {
+  background-color: var(--primary-template-color);
+  font-size: 20px;
+  text-decoration: none;
+  text-align: center;
+  padding: 20px;
+}
+
+.signup {
+  margin-top: 5px;
+  font-size: 20px;
+  text-decoration: none;
+  text-align: center;
+  padding: 20px;
+}
+
+.log-page-nav {
+  background-color: var(--primary-template-color);
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+  align-items: center;
+}
+
+.log-page-nav .back {
+  margin-left: 10px;
+  color: white;
+  text-decoration: none;
+  width: 50%;
+}
+
+.sign-btn {
+  background-color: var(--primary-template-color);
+  color: white;
+  text-align: center;
+  margin: 10px auto 0;
+  padding: 15px;
+  border-radius: 3px;
+  border: none;
+  display: block;
+  font-size: 20px;
+}
+
+.new_user {
+  margin-top: 20px;
+}
+
+.input {
+  width: 100%;
+  height: 50px;
+  border: none;
+  text-indent: 15px;
+  font-size: 18px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.reg-title {
+  width: 75%;
+  font-size: 19px;
+}
+
+.f-password {
+  font-size: 18px;
+  color: #8c949e;
+  margin-top: 15px;
+  text-decoration: none;
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+
+.groups {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+}
+
+.catagory-card {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 5px;
+  margin: 5px 0;
+  width: 100%;
+  border: 1px solid;
+  min-height: 100px;
+  background-color: white;
+}
+
+.new {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  width: 10%;
+}
+
+.add-btn {
+  width: 220px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background-color: var(--secondary-template-color);
+}
+
+.cat-text {
+  padding: 0 15px;
+}
+
+.cat-title {
+  text-decoration: none;
+  color: var(--main-text-color);
+  font-size: 23px;
+  text-transform: capitalize;
+}
+
+.created {
+  font-size: 14px;
+  color: var(--main-text-color);
+}
+
+.cat-img {
+  width: 40%;
+  height: 120px;
+}
+
+.total-amount {
+  color: var(--main-text-color);
+}
+
+.total-amount-tran {
+  width: 100%;
+  background-color: white;
+  text-align: center;
+  font-size: 20px;
+  padding: 15px;
+  margin: 0;
+  margin-bottom: 10px;
+}
